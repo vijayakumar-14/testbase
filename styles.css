@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: #f4f7fb;
+  background: radial-gradient(circle at top, #19314c, #0b1220 65%);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: min(100%, 520px);
+  padding: 36px;
+  border: 1px solid #34465e;
+  border-radius: 24px;
+  background: #142238;
+  box-shadow: 0 24px 70px #0005;
+}
+
+.eyebrow {
+  color: #75ddd5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+h1 {
+  margin: 10px 0 28px;
+  font-size: clamp(28px, 7vw, 42px);
+}
+
+.status,
+#updated {
+  color: #aab9cc;
+}
+
+.reading {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 20px 0 8px;
+  font-size: clamp(76px, 20vw, 112px);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.unit {
+  padding-top: 10px;
+  color: #75ddd5;
+  font-size: 28px;
+}
+
+.device {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid #34465e;
+  color: #aab9cc;
+}
