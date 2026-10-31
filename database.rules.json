@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "sensors": {
+      "temperature": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}
