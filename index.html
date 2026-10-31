@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32 Temperature Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">ESP32 · FIREBASE</p>
+      <h1>Temperature Monitor</h1>
+
+      <p id="status" class="status">Connecting to Firebase…</p>
+
+      <div class="reading">
+        <span id="temperature">--.-</span>
+        <span class="unit">°C</span>
+      </div>
+
+      <p id="updated">Waiting for the first reading…</p>
+      <p class="device">Device: <strong id="device">—</strong></p>
+    </main>
+  </body>
+</html>
